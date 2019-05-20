@@ -32,4 +32,49 @@ function App(){
     );
 }
 
+// class App extends Component{
+//     constructor(){
+//         super()
+//         this.state = {
+//             name:"miriam",
+//             age:24
+//         }
+//     }
+//     render(){
+//         return(
+//             <div>
+//                 <h1>{this.state.name}</h1>
+//                 <h3>{this.state.age}years old</h3>
+//             </div>
+//         );
+//     }
+    
+
+    
+// }
+
+// class App extends Component{
+//     constructor(){
+//         super()
+//         this.state ={
+//             isLoggedIn: true
+//         }
+//     }
+//     render(){
+//         let wordDisplay
+//             if(this.state.isLoggedIn === true){
+//                 wordDisplay = "in"
+//             }else
+//             {
+//                 wordDisplay = "out"
+//             }
+//         return(
+            
+//             <div>
+//                 <h1>You are currently logged {wordDisplay}</h1>
+//             </div>
+//         );
+//     }
+// }
+
 export default App
